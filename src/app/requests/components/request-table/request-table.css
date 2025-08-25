@@ -1,0 +1,26 @@
+/* עיצוב הכרטיס של הטבלה */
+.card {
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+/* טבלה */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 12px;
+  text-align: left;
+}
+
+thead {
+  background-color: #343a40;
+  color: white;
+}
+
+tbody tr:hover {
+  background-color: #f1f1f1;
+}
